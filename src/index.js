@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import SimpleReactModalMax from './SimpleReactModalMax';
+import SimpleReactModalMax from './lib/SimpleReactModalMax';
 import reportWebVitals from './test/reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
