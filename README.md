@@ -18,7 +18,6 @@ Or with yarn: `yarn add simple-react-modal-max`
   -> animation to start modal
 - closeAnim (true)
   -> animation to close modal
-- content -> string content to modal
 - txtColor ("black", "green", "red", "yellow", "orange", "violet")
   -> change color to content string
 - pageOpacity ("soft", "standard", "very", "full")

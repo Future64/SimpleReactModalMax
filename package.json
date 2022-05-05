@@ -1,6 +1,6 @@
 {
   "name": "simple-react-modal-max",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -38,9 +38,12 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
-  "repository": {
-    "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
-  }
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": "https://github.com/Future64/SimpleReactModalMax",
+  "description": "Modal plugin",
+  "author": "Future64 <developement.future@gmail.com>",
+  "license": "MIT"
 }

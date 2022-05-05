@@ -20,7 +20,7 @@ const SimpleReactModalMax = (props) => {
         responsive: props.responsive,
         openAnim: props.openAnim,
         closeAnim: props.closeAnim,
-        content: props.content,
+        content: props.children,
         txtColor: props.txtColor,
         pageOpacity: props.pageOpacity,
     }
@@ -162,7 +162,7 @@ const SimpleReactModalMax = (props) => {
         <div className={`messageBox ${close} ${bgColorModal} ${responsiveModal} ${msgBox}`}>
             <div className={`closeModal ${close} ${viewCloseBtn}`} onClick={(e) => handleCloseModal()}>x</div>
             <div className={`createdMsgBox ${close}`}>
-                <p className={`createdMsg ${close} ${txtColorModal}`}>{content}</p>
+                <div className={`createdMsg ${close} ${txtColorModal}`}>{content}</div>
             </div>
         </div>
     </div>
