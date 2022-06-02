@@ -12,7 +12,7 @@ Or with yarn: `yarn add simple-react-modal-max`
 | :-------------- | :--------------------------------------------------------------: | :--------: | -----------------------------: |
 | **isOpen**      |                      (_boolean_) true/false                      |   false    |                  display modal |
 | **onClose**     |  (_string_) "rightTop", "rightBottom", "leftTop", "leftBottom"   | "rightTop" |       position to close button |
-| **responsive**  |                      (_boolean_) true/false                      |    true    |                mode responsive |
+| **responsive**  |                      (_boolean_) true/false                      |   false    |                mode responsive |
 | **openAnim**    |                      (_boolean_) true/false                      |    true    |       animation to start modal |
 | **closeAnim**   |                      (_boolean_) true/false                      |    true    |       animation to close modal |
 | **txtColor**    | (_string_) "black", "green", "red", "yellow", "orange", "violet" |  "black"   | change color to content string |
