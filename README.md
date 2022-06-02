@@ -20,40 +20,40 @@ Or with yarn: `yarn add simple-react-modal-max`
 
 ## Exemple
 
-```
-import { SimpleReactModalMax } from 'simple-react-modal-max'
+```js
+import { SimpleReactModalMax } from "simple-react-modal-max";
 
-export default class App extends React.Component{
-
-  constructor(){
-    super()
-    this.state = {}
+export default class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
   }
 
-    show(){
-    this.setState({show: true})
+  show() {
+    this.setState({ show: true });
   }
 
-  close(){
-    this.setState({show: false})
+  close() {
+    this.setState({ show: false });
   }
 
-    render(){
+  render() {
     return (
       <div>
-      <a onClick={this.show.bind(this)}>Open Modal</a>
-          <SimpleReactModalMax
-            isOpen={true}
-            onClose="rightTop"
-            responsive={true}
-            pageOpacity="soft"
-            openAnim={true}
-            closeAnim={true}
-            txtColor="green">
-            <p>Employee Created!</p>
-          </SimpleReactModalMax>
+        <a onClick={this.show.bind(this)}>Open Modal</a>
+        <SimpleReactModalMax
+          isOpen={true}
+          onClose="rightTop"
+          responsive={true}
+          pageOpacity="soft"
+          openAnim={true}
+          closeAnim={true}
+          txtColor="green"
+        >
+          <p>Employee Created!</p>
+        </SimpleReactModalMax>
       </div>
-    )
+    );
   }
 }
 ```
